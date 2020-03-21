@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "sourceMap": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "newLine": "LF",
+    "pretty": true,
+    "outDir": "./build",
+    "rootDir": "./src"
+  },
+  "include": ["./src/**/*", "typings/*"]
+}
